@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import CakeCard from "./cakeCard";
 import "./CakeList.css";
-
+const API_BASE_URL = "https://cakewebsite-backend.onrender.com";
 const CakeList = () => {
   const [cakes, setCakes] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/cakes")
+    fetch(`${API_BASE_URL}/api/cakes`)
       .then((res) => res.json())
       .then((data) => setCakes(data))
       .catch((err) => console.error("Error fetching cakes:", err));

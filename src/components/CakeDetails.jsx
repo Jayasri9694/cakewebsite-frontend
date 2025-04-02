@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext"; 
 import "./CakeDetails.css";
-
+const API_BASE_URL = "https://cakewebsite-backend.onrender.com";
 const CakeDetails = () => {
   const { id } = useParams(); // Get cake ID from URL
   const navigate = useNavigate(); // Navigation hook
@@ -14,7 +14,7 @@ const CakeDetails = () => {
 
   useEffect(() => {
     // Fetch cake details from backend (Ensure API is correct)
-    fetch(`http://localhost:3000/api/cakes/${id}`)
+    fetch(`${API_BASE_URL}/api/cakes/${id}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Cake not found");
