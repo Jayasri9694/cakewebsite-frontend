@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-import "./CakeCard.css";
-
-
+import "./CakeCard.css"; 
   const CakeCard = ({ cake }) => {
     const navigate = useNavigate(); 
 

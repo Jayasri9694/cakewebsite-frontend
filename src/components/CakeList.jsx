@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import CakeCard from "./cakeCard";
+import CakeCard from "./CakeCard";
 import "./CakeList.css";
 const API_BASE_URL = "https://cakewebsite-backend.onrender.com";
 const CakeList = () => {
