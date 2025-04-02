@@ -1,0 +1,72 @@
+/* Page background */
+body {
+    background-color: #f8f1e4; /* Light creamy background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cart container */
+  .cart-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* White container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Cart heading */
+  .cart-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Empty cart message */
+  .cart-container p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Cart item list */
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-list li {
+    font-size: 18px;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff7ea; /* Light peach background */
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+  
+  .cart-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Checkout button */
+  .checkout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ff6f61; /* Vibrant coral */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #e55b50;
+  }
+  

@@ -1,0 +1,82 @@
+.cake-details {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .cake-details-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cake-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 15px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .cake-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e44d26;
+    margin: 10px 0;
+  }
+  
+  .add-to-cart-btn, .back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .add-to-cart-btn {
+    background: #ff6f61;
+    color: white;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #e44d26;
+  }
+  
+  .back-btn {
+    background: #666;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background: #444;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #e44d26;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

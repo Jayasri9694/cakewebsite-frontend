@@ -1,0 +1,47 @@
+.cake-card {
+  text-decoration: none; /* Removes underline from text inside card */
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.cake-card-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cake-card-title,
+.cake-card-description,
+.cake-card-price {
+  text-decoration: none; /* Removes underline from all text elements */
+  color: #333;
+}
+
+.cake-card-footer {
+  margin-top: 10px;
+}
+
+.add-to-cart-btn {
+  text-decoration: none; /* Remove underline from button */
+  background: #ff6f61;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+  background: #e44d26;
+  text-decoration: none; /* Ensures underline doesn't appear on hover */
+}
