@@ -1,0 +1,43 @@
+.cake-list-container {
+    padding: 20px;
+  }
+  
+  .add-cake {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .add-cake-button {
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-cake-button:hover {
+    background-color: #c13572;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
